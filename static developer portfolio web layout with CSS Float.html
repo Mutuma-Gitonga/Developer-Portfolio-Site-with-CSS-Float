@@ -30,6 +30,51 @@
 			font-weight: bold;
 			text-align: center;
 		}
+
+
+		.column {
+			float: left;
+			padding: 20px;
+		}
+
+		.image {
+			width: 15%;
+		} 
+
+		.content {
+			width: 60%;
+		}
+
+		.menu {
+			width: 25%;
+		}
+
+		.menu ul {
+			list-style-type: none;
+		}
+
+		.menu li {
+			background-color: coral;
+			font-size: 1.5em;
+			margin-bottom: 20px;
+			padding: 30px;
+
+		}
+
+		.menu li:hover {
+			background-color: orange;
+		}
+
+		.menu a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.clearfix::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
 	</style>
 </head>
 <body>
@@ -40,7 +85,7 @@
 
 	<div class="clearfix">
 		<div class="column image">
-			<img src="laptop.jpg" alt="laptop with code">
+			<img src="laptop.jpg" alt="laptop with code" style="width: 100%; height: 100%; object-fit: contain;">
 		</div>
 
 
@@ -48,6 +93,16 @@
 			<h1>Project 1: HTML and CSS Website</h1>
 
 			<p>Employed HTML and CSS fundamentals to create a static website. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+			<h1>Project 2: Bootstrap Responsive website</h1>
+
+			<p>Applied Bootstrap to create a responsive mobile-first website. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse

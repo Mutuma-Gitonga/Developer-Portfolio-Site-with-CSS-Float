@@ -2,7 +2,7 @@
 A simple static website layout showcasing a developer's portfolio.
 
 # Introduction
-I have been learning web development for the last month or so. In that period, I have digested many HTML and CSS concepts that I am now applying in my first project built from scratch (It’s public, find it [here](https://github.com/Mutuma-Gitonga/June-13th-Blog-Developer-Portfolio-Site-with-CSS-Float) on my GitHub profile). 
+I have been learning web development for the last month or so. In that period, I have digested many HTML and CSS concepts that I am now applying in my first project built from scratch. 
 
 Although it is a simple static web layout project, it is significantly fulfilling working it to completion. Therefore, strap in as I take you through my development process stepwise. But first, I will highlight the tools I used in the process.
 # Tools
